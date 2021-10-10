@@ -1,0 +1,7 @@
+{
+  "name" : "test",
+  "configurations" : {
+    "type" : "record",
+    "fields" : [ ]
+  }
+}

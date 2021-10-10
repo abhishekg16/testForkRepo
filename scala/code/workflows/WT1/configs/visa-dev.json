@@ -1,0 +1,7 @@
+{
+  "name" : "visa-dev",
+  "configurations" : {
+    "type" : "record",
+    "fields" : [ ]
+  }
+}

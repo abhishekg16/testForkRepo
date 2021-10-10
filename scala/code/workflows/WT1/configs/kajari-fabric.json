@@ -1,0 +1,7 @@
+{
+  "name" : "kajari-fabric",
+  "configurations" : {
+    "type" : "record",
+    "fields" : [ ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "resolvers" : [ ],
+  "graph" : {
+    "metainfo" : {
+      "cluster" : "local",
+      "id" : "WT1",
+      "memory" : 1,
+      "mode" : "batch",
+      "processors" : 1,
+      "language" : "scala",
+      "imported" : true,
+      "interimMode" : "full",
+      "codeMode" : "sparse",
+      "buildSystem" : "maven",
+      "mainCodeAfter" : {
+        "scalaStatements" : "\n"
+      }
+    },
+    "connections" : [ ],
+    "groups" : [ ],
+    "inports" : { },
+    "outports" : { },
+    "processes" : {
+      "Reformat0" : {
+        "component" : "Reformat",
+        "metadata" : {
+          "label" : "Reformat0",
+          "x" : 198,
+          "y" : 88
+        },
+        "ports" : {
+          "inputs" : [ "in" ],
+          "outputs" : [ "out" ]
+        },
+        "properties" : {
+          "interim" : true,
+          "cache" : false,
+          "functions" : [ ]
+        }
+      },
+      "Script0" : {
+        "component" : "Script",
+        "metadata" : {
+          "label" : "Script0",
+          "x" : 373,
+          "y" : 108
+        },
+        "ports" : {
+          "inputs" : [ ],
+          "outputs" : [ ]
+        },
+        "properties" : {
+          "interim" : false,
+          "cache" : false,
+          "code" : "",
+          "lastSchemaUpdate" : ""
+        }
+      },
+      "Script1" : {
+        "component" : "Script",
+        "metadata" : {
+          "label" : "Script1",
+          "x" : 528,
+          "y" : 118
+        },
+        "ports" : {
+          "inputs" : [ ],
+          "outputs" : [ ]
+        },
+        "properties" : {
+          "interim" : false,
+          "cache" : false,
+          "code" : "",
+          "lastSchemaUpdate" : ""
+        }
+      }
+    }
+  }
+}
